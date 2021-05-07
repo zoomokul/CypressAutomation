@@ -2,17 +2,16 @@ describe('Loops', () => {
   
           it('third', () => {
               cy.visit("https://www.memurlar.net/")
-              var i;
-              i=Math.floor((Math.random() * 10)) + 4;
-              cy.log(i)
-              cy.get('#GlobalHeader > div.Main > div > a:nth-child('+i+')')
-                .then((x)=>{
+             
+              cy.get('#GlobalHeader > div.Main > div')
+                .each((el)=>{
             
 
 
-                cy.log(x.text())
+                //cy.log(el.text())
+                cy.get(el).click()
                 })
-                .click()
+                
            
            
            
