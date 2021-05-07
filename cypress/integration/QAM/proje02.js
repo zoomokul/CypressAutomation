@@ -6,7 +6,7 @@ describe('Loops', () => {
               cy.get('#GlobalHeader > div.Main > div')
                 .each((el)=>{
             
-
+//bu bir yorum
 
                 //cy.log(el.text())
                 cy.get(el).click()
