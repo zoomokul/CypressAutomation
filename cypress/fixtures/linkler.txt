@@ -1,0 +1,22 @@
+https://medium.com/@Cypress_io/working-with-iframes-in-cypress-ad23ca50179f
+https://dev.to/walmyrlimaesilv/how-to-identify-an-element-by-its-text-with-cypress-16pg
+
+https://www.youtube.com/watch?v=9VtTAXyG384
+    skip, trigger, mouseover,invoke, url
+https://www.youtube.com/watch?v=y_L88Yzd4-Y&list=PLFGoYjJG_fqoxTBJAUYw_poyBh0DI78HV&index=11
+    dropdown
+https://www.youtube.com/watch?v=2nPARZDDGZg&list=PLFGoYjJG_fqoxTBJAUYw_poyBh0DI78HV&index=13
+    checkbox
+https://www.youtube.com/watch?v=x54jV24gWdE&list=PLFGoYjJG_fqoxTBJAUYw_poyBh0DI78HV&index=14
+    generic ,should(have.lenght,)   command js de fonksiyon oluşturma
+https://www.youtube.com/watch?v=3iBkupWZwUo&list=PLFGoYjJG_fqoxTBJAUYw_poyBh0DI78HV&index=16
+    html reporter
+https://www.youtube.com/watch?v=2VRBlJsXufw&list=PLFGoYjJG_fqoxTBJAUYw_poyBh0DI78HV&index=9
+    go back
+https://www.youtube.com/watch?v=FHYSIPO8laM&list=PLFGoYjJG_fqoxTBJAUYw_poyBh0DI78HV&index=8
+    find within metod
+https://www.youtube.com/watch?v=3_nfyTlY4TA&t=753s
+    loop
+https://www.youtube.com/watch?v=rkDkdpPRb5w
+    multiple elements, .eq(index numarası)
+https://www.youtube.com/watch?v=1KnPSEWiJjI&list=PLWIBmxdTr81exw_GknBhPVy_YIR4Ab5S6&index=12

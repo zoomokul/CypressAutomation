@@ -24,3 +24,15 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import 'cypress-file-upload';
+Cypress.Commands.add('login', (usarname, password) => { 
+    cy.clearCookies()
+    cy.clearLocalStorage();
+    cy.get('#user_login').type(usarname)
+  
+
+    cy.get('#user_pass').type(password)
+    cy.get('#wp-submit').click()
+
+})
+
+require('cypress-downloadfile/lib/downloadFileCommand')

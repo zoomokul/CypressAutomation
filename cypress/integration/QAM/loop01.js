@@ -32,24 +32,31 @@ describe('Loops', () => {
         */
         it('third', () => {
             cy.visit("https://react-redux.realworld.io/#/login?_k=5jewux")
-            let arr=[]
+            var arr=[]
             cy.get('a').each((el)=>{
                 
                 arr.push(el.text())
-                arr.forEach(x=>console.log(x))
-                console.log("döngü sonu")
+               //arr.forEach(x=>console.log(x))
+                //console.log("döngü sonu")
+                cy.log('dizinin uzunluğu',arr.length)
     
              
               
               
       
-            })
+            }
+            )
+            cy.log('dizinin uzunluğu2',arr.length)
+            for (let index = 0; index < arr.length; index++) {
+              console.log(arr[index]);
+              
+            }
             
 
-
-
       
-   })
+   }
+ 
+   )
   
   
 
