@@ -1,38 +1,45 @@
 
 
 describe('Loops', () => {
-  /*
-    it('First', () => {
-      cy.visit("https://react-redux.realworld.io/#/login?_k=5jewux")
-      let arr=[]
-      cy.get('a').first().each((el)=>{
-          
-        // metninı yazdırıyoruz.
-        console.log(el.text())
-        //elemanları secip işlem uygulayabiliriz.
-        cy.get(el).click() 
-        
 
+    it.only("google.com",()=>{
+      cy.visit("https://www.google.com.tr/")
+      cy.get("a")
+      .each((el,index,list)=>{
+       cy.log(el.text(),index,list)
+
+       if (el.text() === '') {
+        // stop iteration
+        return false
+      }
+    
+     
       })
-     */
-    /*
+
+    })
+ 
+ 
+    
       it('Second', () => {
         cy.visit("https://react-redux.realworld.io/#/login?_k=5jewux")
-        let arr=[]
-        cy.get('a').each((el)=>{
-            
-          console.log(el.text())
-          arr.push(el.text())
+        var arr2=[];
+        cy.get('a')
+        .each((el,index,list)=>{
 
-         
-          
-          
-  
+
+         var text= el.text()
+        cy.contains(text).click()
+        cy.wait(3000)
+        cy.go("back")
         })
-        */
+        
+        
+        
+      })
+       
         it('third', () => {
             cy.visit("https://react-redux.realworld.io/#/login?_k=5jewux")
-            var arr=[]
+            //var arr=[]
             cy.get('a').each((el)=>{
                 
                 arr.push(el.text())
@@ -46,10 +53,11 @@ describe('Loops', () => {
       
             }
             )
+            
             cy.log('dizinin uzunluğu2',arr.length)
             for (let index = 0; index < arr.length; index++) {
               console.log(arr[index]);
-              
+           
             }
             
 

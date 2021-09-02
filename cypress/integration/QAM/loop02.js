@@ -13,6 +13,7 @@ describe('Loops', () => {
           //cy.get("@myarr").first().click()
           cy.get("@myarr").then(()=>{
               console.log("dizimizin uzunluğu"+arr.length)
+              console.log(arr)
           })
         
          

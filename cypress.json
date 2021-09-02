@@ -1,1 +1,22 @@
-{}
+{   
+
+    
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout":10000,
+    "exectTimeout":60000,
+    "pageLoadTimeout":60000,
+    "requestTimeout":15000,
+    "responseTimeout":15000,
+
+    "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": true,
+        "json": true
+    }
+
+
+
+
+
+}
